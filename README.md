@@ -55,7 +55,7 @@ This project includes a set of automated test cases and enhancements to verify w
   - Configure the mobile app to display temperature in Celsius.
 - **Comparative Temperature Analysis**
   - Select at least 20 cities to test.
-  - Compare the mobile app’s temperature readings with the OpenWeatherMap API responses for the same cities.
+  - Compare the mobile app’s temperature readings with the OpenWeatherMap API (can use API Endpoint: `https://api.openweathermap.org/data/2.5/weather?id={city id}&appid={API key}`) responses for the same cities.
   - Insert both sets of data (Mobile App and API) into the same database used in previous tests.
 - **Reporting**
   - Generate a concise report highlighting any cities where there is a discrepancy between the Mobile App and the API temperature data.
